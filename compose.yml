@@ -1,0 +1,27 @@
+services:
+  web:
+    build:
+      context: frontend
+    ports:
+      - 5173:5173
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+#   db:
+#     image: mariadb:10.6.4-focal
+#     restart: always
+#     secrets:
+#       - db-password
+#     volumes:
+#       - db-data:/var/lib/mysql
+#     environment:
+#       - MYSQL_DATABASE=example
+#       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db-password
+#     expose:
+#       - 3306
+#       - 33060
+# volumes:
+#   db-data:
+# secrets:
+#   db-password:
+#     file: db/password.txt

@@ -1,0 +1,35 @@
+.base-product-card {
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  transition: 0.1s all ease-in-out;
+
+  cursor: pointer;
+
+  &__wrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &__product-info {
+      &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &__img {
+      max-width: 100%;
+    }
+  }
+
+  &:hover {
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.25);
+  }
+}

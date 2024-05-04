@@ -1,0 +1,16 @@
+.home-page-section {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__title {
+    font-size: 21px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+  }
+}

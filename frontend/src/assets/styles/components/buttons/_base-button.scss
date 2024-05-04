@@ -1,0 +1,19 @@
+.base-button {
+  border: 1px solid #bbb;
+  background: #ffffff;
+  font-size: 14px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: .1s all ease-in-out;
+
+  max-width: max-content;
+
+  &:hover {
+    background: #000;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,31 @@
+.base-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  padding: 8px 0;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+
+    &__user-panel {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      margin-left: auto;
+
+      a {
+        color: #000;
+        transition: .25s all ease-in-out;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

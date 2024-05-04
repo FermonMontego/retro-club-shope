@@ -1,0 +1,68 @@
+@import "components/components";
+
+@import "variables/variables";
+
+@import "views/views";
+
+@import "../fonts/montserrat/montserrat.css";
+@import "../fonts/satisfy/satisfy";
+
+@import "fast-styles";
+@import "reset";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+}
+
+.base-logotype {
+  span {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    color: $primary-color-scheme;
+  }
+}
+
+.base-hr-line {
+  margin: 12px 0;
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #bbb;
+}
+
+button {
+  font-family: inherit;
+}
+
+.default-layout-main {
+  margin: 24px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  &__wrapper-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &__products-preview {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+    }
+  }
+}
+
+.base-container {
+  max-width: 1440px;
+  margin:0 auto;
+  padding: 0px 24px;
+  width: 100%;
+}
+
+a[href] {
+  text-decoration: none;
+}

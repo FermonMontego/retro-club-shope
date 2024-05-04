@@ -1,0 +1,13 @@
+.catalog-sidebar {
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+
+  position: sticky;
+  top: 16px;
+
+  &__filter {
+    &__title {
+      font-size: 16px;
+    }
+  }
+}
