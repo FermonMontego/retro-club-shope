@@ -6,10 +6,10 @@ import DefaultLayout from "../../layouts/DefaultLayout.vue";
 <template>
   <default-layout>
     <section class="sizes-section base-container flex flex-direction-column gap-32">
-      <h1>Узнать размеры</h1>
+      <h1>Узнайте свой размер</h1>
 
       <div class="sizes-section__content">
-        Узнать свой размер легко!
+        Здесь будет таблица размеров
       </div>
     </section>
   </default-layout>

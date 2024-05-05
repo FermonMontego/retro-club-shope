@@ -65,6 +65,7 @@ import BaseButton from "../../../Buttons/BaseButton/BaseButton.vue";
     }
 
     &__legend {
+      padding: 0px 12px;
       font-size: 32px;
       font-weight: 500;
       text-align: center;

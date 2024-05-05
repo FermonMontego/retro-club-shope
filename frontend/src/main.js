@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import router from "./router/router.js";
 import App from "./App.vue";
 
+// import directives
 import clickOutside from "./directives/clickOutside/click-outside.js";
 
 import "./assets/styles/main.scss";
